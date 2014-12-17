@@ -118,7 +118,6 @@ button.btn {
     <div class="jumbotron">
   <h1><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Tiny ME!</h1>
   <p>URL redirect script using PHP, MySQL</p>
-  <div class="pull-right"><img src="img/pic.png"></div>
   <?php 
   if(!$_POST['url']) {
   
