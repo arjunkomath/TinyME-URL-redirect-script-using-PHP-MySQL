@@ -94,8 +94,9 @@ input.btn.btn-lg:focus {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
+
 button.btn {
-    width: 40%;
+    width: 30%;
     height: 60px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
@@ -143,13 +144,13 @@ button.btn {
     	 <div class="well">
 		 	<form action="#">
               <div class="input-group">
-                 <input onClick="this.select();" class="btn btn-lg" name="url" id="url" type="text" value="'.'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']."?url=".$short.'" required>
+                 <input style="width:90%" onClick="this.select();" class="btn btn-lg" name="url" id="url" type="text" value="'.'http://'.$_SERVER['HTTP_HOST']."/r.php?url=".$short.'" required>
               </div>
              </form>
-             <h3>Done!</h3>
+             <h3>Done! . <a href="'.'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'].'">Shorten Another URL!</a></h3>
     	 </div>
 		</div>
-		<a href="'.'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'].'">Shorten Another URL!</a>
+		
 	</div>
 </section>';
 
@@ -162,7 +163,7 @@ button.btn {
 
 <hr>
 <footer>
-<center>Powered by Techulus!</center>
+<center>Powered by Techulus | <a href="https://github.com/arjunkomath/TinyME-URL-redirect-script-using-PHP-MySQL">Find me on Github</a></center>
 </footer>
   </body>
 </html>
